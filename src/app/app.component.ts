@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { MediaObserver } from '@angular/flex-layout';
+import { LoadingBarService } from '@ngx-loading-bar/core';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +8,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'offto';
+  title = 'Offto';
+
+  constructor(
+    public ngxLoadingBar: LoadingBarService,
+    public mediaObserver: MediaObserver) {}
 }
