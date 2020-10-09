@@ -1,0 +1,10 @@
+{
+  "LANGUAGE": {
+    "NAME": "English",
+    "DIR": "ltr",
+    "ICON": "./assets/images/i18n/en.png",
+    "BUTTON": {
+      "TITLE": "Change language"
+    }
+  }
+}

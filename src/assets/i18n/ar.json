@@ -1,0 +1,10 @@
+{
+  "LANGUAGE": {
+    "NAME": "العربية",
+    "DIR": "rtl",
+    "ICON": "./assets/images/i18n/ar.png",
+    "BUTTON": {
+      "TITLE": "تغيير اللغة"
+    }
+  }
+}
